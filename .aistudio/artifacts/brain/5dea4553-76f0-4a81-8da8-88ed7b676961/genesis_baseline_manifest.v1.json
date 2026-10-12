@@ -1,0 +1,30 @@
+{
+  "manifest_schema_version": "1.0.0",
+  "phase_identifier": "42.1",
+  "baseline_designation": "GENESIS_BASELINE",
+  "protected_file": "src/data/curriculumMaster.ts",
+  "sha256": "91660bda4dd9585cbc5556d8fa3bb234334463fd5f3d49b9fb688b5b0f400919",
+  "file_byte_length": 22828,
+  "created_at_utc": "2026-10-12T02:52:26.670Z",
+  "accepted_at_utc": "2026-10-12T02:58:17.000Z",
+  "acceptance_status": "ACCEPTED",
+  "authorized_approver": "denp4ndu@gmail.com",
+  "approver_identity_type": "AUTHORIZED_MAINTAINER_IDENTITY",
+  "acceptance_scope": "Integrity of src/data/curriculumMaster.ts at acceptance point and immutable reference for subsequent changes",
+  "provenance_disclaimer": "Approval explicitly acknowledges pre-Phase 42 historical provenance remains UNVERIFIED and does not substitute for VCS branch protection or hosting security controls.",
+  "git_commit_sha": null,
+  "git_branch": null,
+  "git_repository_available": false,
+  "node_version": "v22.23.2",
+  "package_manager": "npm@10.9.8",
+  "os_platform": "linux-x64 (4.19.0-gvisor)",
+  "verification_script_path": "scripts/verifyCurriculumIntegrity.js",
+  "verification_outcome": "PASS",
+  "evidence_record_reference": ".aistudio/artifacts/brain/5dea4553-76f0-4a81-8da8-88ed7b676961/curriculum_baseline.json",
+  "historical_provenance": "UNVERIFIED",
+  "signature": {
+    "type": "NONE_CONFIGURED",
+    "status": "UNAVAILABLE",
+    "note": "External digital signing key or PKI identity not configured in this environment"
+  }
+}

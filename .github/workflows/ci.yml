@@ -1,0 +1,37 @@
+name: EduTaktis LMS CI & Integrity Gate
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  integrity-and-quality-gate:
+    name: Verify Curriculum Integrity, Lint, Test & Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: 1. Earliest Gate: Verify Protected Curriculum Integrity
+        run: npm run verify:curriculum
+
+      - name: 2. Typecheck & Lint
+        run: npm run lint
+
+      - name: 3. Regression & Unit Test Suites
+        run: npm test
+
+      - name: 4. Production Application Build
+        run: npm run build

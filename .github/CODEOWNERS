@@ -1,0 +1,9 @@
+# EduTaktis LMS Code Owners Specification
+# Protected Curriculum Master Data & Cryptographic Baseline Manifests
+# Any changes require explicit review and mandatory sign-off from designated security & curriculum leads.
+
+src/data/curriculumMaster.ts @edutaktis-security-maintainers @edutaktis-curriculum-leads
+.aistudio/artifacts/brain/*/curriculum_baseline.json @edutaktis-security-maintainers
+.aistudio/artifacts/brain/*/genesis_baseline_manifest*.json @edutaktis-security-maintainers
+scripts/verifyCurriculumIntegrity.js @edutaktis-security-maintainers
+.github/workflows/ci.yml @edutaktis-security-maintainers

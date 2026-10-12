@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="100%" height="100%">
+  <defs>
+    <!-- Royal Blue Gradient for T bar and stem -->
+    <linearGradient id="tBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+
+    <!-- Cyan-Teal to Blue Gradient for E loop -->
+    <linearGradient id="eTealGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14B8A6" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+
+    <!-- Play Arrow Pointer Gradient -->
+    <linearGradient id="pointerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(12, 16)">
+    <!-- Symbol: Exact E+T rounded geometry from uploaded logo edutaktis.png -->
+    <g transform="translate(0, 0) scale(0.95)">
+      <!-- Top T bar -->
+      <rect x="6" y="6" width="94" height="20" rx="10" fill="url(#tBlueGrad)" />
+      
+      <!-- Right T Stem -->
+      <rect x="70" y="22" width="20" height="66" rx="10" fill="url(#tBlueGrad)" />
+      
+      <!-- Left E Stem & Loop -->
+      <path d="M 6,22 C 6,22 6,76 6,76 C 6,83 12,90 20,90 L 58,90 C 63,90 68,85 68,80 C 68,75 63,70 58,70 L 26,70 C 26,70 26,22 26,22 Z" fill="url(#eTealGrad)" />
+      
+      <!-- Middle E Bar -->
+      <rect x="24" y="38" width="38" height="18" rx="9" fill="url(#eTealGrad)" />
+      
+      <!-- Bottom-Right Play Arrow Pointer -->
+      <path d="M 60,56 L 90,72 C 93,74 93,78 90,80 L 60,96 C 57,98 52,96 52,91 L 52,61 C 52,56 57,54 60,56 Z" fill="url(#pointerGrad)" />
+    </g>
+
+    <!-- Wordmark: "EduTaktis" -->
+    <text x="116" y="52" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="800" font-size="44" letter-spacing="-0.03em">
+      <tspan fill="#0F172A">Edu</tspan><tspan fill="#2563EB">Taktis</tspan>
+    </text>
+
+    <!-- Tagline: "AI & Teknologi Praktis untuk Guru" -->
+    <text x="118" y="78" font-family="'Inter', system-ui, -apple-system, sans-serif" font-weight="600" font-size="14.5" fill="#64748B" letter-spacing="0.01em">
+      AI &amp; Teknologi Praktis untuk Guru
+    </text>
+  </g>
+</svg>

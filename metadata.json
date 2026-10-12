@@ -1,0 +1,6 @@
+{
+  "name": "EduTaktis — AI & Teknologi Praktis untuk Guru",
+  "description": "Custom WordPress theme and live preview portal for EduTaktis (edutaktis.com)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 70" width="100%" height="100%">
+  <g transform="translate(0, 5) scale(0.6)">
+    <rect x="10" y="10" width="80" height="22" rx="11" fill="#2563EB" />
+    <rect x="10" y="10" width="22" height="80" rx="11" fill="#2563EB" />
+    <rect x="10" y="68" width="48" height="22" rx="11" fill="#2563EB" />
+    <rect x="68" y="10" width="22" height="48" rx="11" fill="#2563EB" />
+    <rect x="28" y="39" width="30" height="18" rx="9" fill="#14B8A6" />
+    <path d="M 62 60 L 92 78 L 62 96 Z" fill="#14B8A6" />
+  </g>
+  <text x="68" y="38" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="32" letter-spacing="-0.03em">
+    <tspan fill="#0F172A">Edu</tspan><tspan fill="#2563EB">Taktis</tspan>
+  </text>
+  <text x="69" y="56" font-family="'Inter', system-ui, sans-serif" font-weight="600" font-size="11" fill="#64748B" letter-spacing="0.04em">
+    AI &amp; Teknologi Praktis untuk Guru
+  </text>
+</svg>

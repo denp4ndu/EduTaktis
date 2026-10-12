@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <!-- Section 3 "MAKNA LOGO": E + T Symbol + Pointer Play Triangle -->
+  <!-- Top Horizontal Bar (E + T Top) -->
+  <rect x="10" y="10" width="80" height="22" rx="11" fill="#2563EB" />
+  <!-- Left Vertical Spine (E Spine) -->
+  <rect x="10" y="10" width="22" height="80" rx="11" fill="#2563EB" />
+  <!-- Bottom Horizontal Base (E Base) -->
+  <rect x="10" y="68" width="48" height="22" rx="11" fill="#2563EB" />
+  <!-- Right Vertical Downstem (T Stem) -->
+  <rect x="68" y="10" width="22" height="48" rx="11" fill="#2563EB" />
+  <!-- Middle Horizontal Bar (E Center) in EduTaktis Teal -->
+  <rect x="28" y="39" width="30" height="18" rx="9" fill="#14B8A6" />
+  <!-- Pointer / Play Right-Facing Triangle in EduTaktis Teal -->
+  <path d="M 62 60 L 92 78 L 62 96 Z" fill="#14B8A6" />
+</svg>

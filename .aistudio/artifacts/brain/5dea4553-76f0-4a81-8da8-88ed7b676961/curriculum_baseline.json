@@ -1,0 +1,12 @@
+{
+  "baseline_type": "CURRENT_STATE_ONLY",
+  "historical_provenance": "UNAVAILABLE",
+  "source_file": "src/data/curriculumMaster.ts",
+  "sha256": "91660bda4dd9585cbc5556d8fa3bb234334463fd5f3d49b9fb688b5b0f400919",
+  "phase": 42,
+  "created_at": "2026-10-02T18:18:00.000Z",
+  "meta": {
+    "system": "EduTaktis LMS",
+    "developer_instructions": "This baseline lock defines the current state of curriculum master data. Future verification phases should read and verify the SHA-256 of src/data/curriculumMaster.ts against this signature. Integrity failures must trigger a hard stop."
+  }
+}
